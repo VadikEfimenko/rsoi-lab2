@@ -1,0 +1,9 @@
+{
+  "name": "rsoi-2",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cd films; npm test; cd ../login; npm test; cd ../users; npm test;"
+  },
+  "author": "JB",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "rsoi-2-users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc --reporter=text mocha --exit test.js"
+  },
+  "author": "JB",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.16.1",
+    "mocha": "^6.2.2",
+    "redis": "^2.8.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.0.0"
+  }
+}
